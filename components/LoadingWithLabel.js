@@ -4,9 +4,9 @@ import styles from "./LoadingWithLabel.scss";
 
 export function LoadingWithLabel({
 	label,
-	boxStyle,
+	boxStyle, // optional container styling
 	textStyle,
-	loaderBoxStyle,
+	loaderBoxStyle, // optional loading styling
 }) {
 	return (
 		<View style={[styles.box, boxStyle]}>

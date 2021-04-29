@@ -17,6 +17,7 @@ export function LocationSelectorModal() {
 				locations
 					.filter((l) => l.id.length > 0)
 					.map((location, index) => {
+						// disable same location
 						const disabled =
 							selectedZombie.location === location.id;
 						return (

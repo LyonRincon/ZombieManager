@@ -17,6 +17,7 @@ export default function mainReducer(state = initialState, action) {
 		case "ADD_ZOMBIE_START":
 			return { ...state, zombieName: action.payload, status: "loading" };
 		case "GET_ZOMBIES_SUCCESS": {
+			// converting format for easier sorting
 			const newList = helper.formatFromFirebase(action.payload);
 			return {
 				...state,

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { View, SafeAreaView, ScrollView, RefreshControl } from "react-native";
-import { Overlay, Text } from "react-native-elements";
+import { Overlay } from "react-native-elements";
 import {
 	SimpleHeader,
 	LoadingWithLabel,
