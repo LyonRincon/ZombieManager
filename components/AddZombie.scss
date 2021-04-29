@@ -1,0 +1,37 @@
+.addBox {
+
+}
+
+.addBoxInner {
+	flex-direction: row;
+	height: 40;
+	margin-bottom: 20;
+}
+
+.titleText {
+	color: #b2b8be;
+	font-size: 18px;
+	margin-vertical: 10;
+}
+
+.input {
+    flex: 1;
+    border-color: #fff;
+    background-color: #fff;
+    border-width: 1px;
+    border-radius: 10px;
+	font-size: 15;
+	margin-right: 10;
+	padding-horizontal: 5
+}
+
+.button {
+    height: 40;
+    background-color: green;
+    border-radius: 10px;
+    min-width: 125;
+}
+
+.buttonTitle {
+	font-size: 15;
+}

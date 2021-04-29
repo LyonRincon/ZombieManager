@@ -1,0 +1,30 @@
+.zombieItem {
+	flex-direction: row;
+	height: 50px;
+	align-items: center;
+}
+
+.zombieNameBox {
+	flex: 1;
+	padding-left: 10;
+}
+
+.zombieName {
+	color: #fff;
+	font-size: 16px;
+}
+
+.zombieLocation {
+	color: #b2b8be;
+	font-size: 12px;
+}
+
+.zombieAction {
+	width: 20;
+	height: 20;
+}
+
+.zombieIcon {
+	width: 30;
+	height: 30;
+}

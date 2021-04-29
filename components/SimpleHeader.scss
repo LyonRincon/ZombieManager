@@ -1,0 +1,20 @@
+.headerBox1 {
+    background-color: #131B24;
+}
+
+.headerBox2 {
+    height: 85;
+    background-color: #EB5656;
+    border-bottom-width: 0;
+    border-bottom-end-radius: 20;
+    border-bottom-start-radius: 20;
+    align-items: center;
+    flex-direction: row;
+}
+
+.text {
+    font-size: 16;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
